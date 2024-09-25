@@ -152,7 +152,7 @@ Una comparación entre ambos métodos sería así:
 
 
 
-`<p style="text-align:center"> Muestra de como es la arquitectura cliente-servidor </p>`
+<p align=center> Muestra de como es la arquitectura cliente-servidor </p>
 
 
 ### LENGUAJES DE PROGRAMACIÓN WEB

@@ -150,10 +150,7 @@ Una comparación entre ambos métodos sería así:
     <img width="760" height="548" src="https://i.imgur.com/z365eAi.png">
 </p>
 
-
-
-<p align=center> Muestra de como es la arquitectura cliente-servidor </p>
-
+`<p style="text-align:center"> Muestra de como es la arquitectura cliente-servidor </p>`
 
 ### LENGUAJES DE PROGRAMACIÓN WEB
 
@@ -257,7 +254,12 @@ Para esto los navegadores utilizan las siguientes herramientas:
 * **Motor de renderizado:** Este se encarga de tratar el código HTML, CSS, JS y convertirlos a elementos visibles e interactuables. Cada navegador suele usar uno distinto, por ejemplo, Chromium y Edge utilizan Blink, Safari Webkit y Firefox Gecko.
 * **Motor de JavaScript:** Los navegadores incorporan motores específicos para procesar JS los cuales interpretan y ejecutan JavaScript directamente en el navegador. Para ser más eficiente y trabajar más rápido este motor utiliza la técnica Just In Time (JIT) compiler el cual es una combinación entre intérprete y compilador. Lo que hace el compilador lo traduce a bytecode y el bytecode se ejecuta por el intérprete, luego un *Profiler* analiza las operaciones e identifica y reemplaza el código que se puede optimizar.
 * **Ejecución asíncrona y Event Loop:** La ejecución asíncrona consiste en ejecutar código de manera simultánea e independiente. Es clave para poder hacer actualizaciones dinámicas sin recargar la página y esto es gracias al Event Loop el cual funciona de la siguiente manera:
+
   * Se utilizan los callbacks que son funciones que se llaman cuando se recibe el resultado de la operación y estos se meten en una cola que se llama Callback queue. Luego el Event Loop observa si hay tareas pendientes en la callback queue y las añade al Call Stack. El Call Stack es la única pila de llamadas de JS las cuales son llamadas a las funciones según Last-In, First Out (LIFO).
+
+  <p align="center">
+      <img width="800" height="548" src="https://media.licdn.com/dms/image/D5612AQE4eKWf_kLA5g/article-cover_image-shrink_600_2000/0/1676921600016?e=2147483647&v=beta&t=r9dM3SCNSJMZueFqpaZJqviT_k3dAmioQ39xpGsf568">
+  </p>
 
 Estos mecanismos de ejecución son esenciales porque nos permiten desarrollar unas aplicaciones interactivas y eficientes por:
 

@@ -150,7 +150,7 @@ Una comparación entre ambos métodos sería así:
     <img width="760" height="548" src="https://i.imgur.com/z365eAi.png">
 </p>
 
-`<p style="text-align:center"> Muestra de como es la arquitectura cliente-servidor </p>`
+<p align=center> Muestra de como es la arquitectura cliente-servidor </p>
 
 ### LENGUAJES DE PROGRAMACIÓN WEB
 

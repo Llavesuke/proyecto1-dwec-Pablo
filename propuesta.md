@@ -79,7 +79,6 @@ Hay tres grandes webs que serian la competencia directa de este proyecto, las cu
 #### 1. Sistema de autenticación y gestión de usuarios
 
 - [ ] Registro y login de usuarios con correo electrónico o a través de otras redes sociales.
-
 - [ ] Perfil de usuarios personalizables
 - [ ] Gestion de usuarios donde se guarden las preferencias, notificaciones, etc.
 
@@ -146,6 +145,15 @@ Una comparación entre ambos métodos sería así:
 | Se utiliza para la interfaz de usuario y para ejecutar<br />acciones inmediatas, como la validación <br />de formularios. | Se encarga de tareas como el procesamiento de datos,<br />almacenamiento y control de las reglas de negocio.                        |
 | La carga de procesamiento depende de la capacidad<br /> del equipo del usuario.                                             | El servidor tiene mayor capacidad para manejar grandes<br />cantidades de datos y realizar tareas complejas.                        |
 | Menos eficiente para realizar tareas que requieren acceso<br /> a bases de datos o lógica de negocio compleja.             | Ideal para gestionar la lógica de negocio,<br />acceder a bases de datos y <br />procesar solicitudes que requieren más recursos. |
+
+<p align="center">
+    <img width="760" height="548" src="https://i.imgur.com/z365eAi.png">
+</p>
+
+
+
+`<p style="text-align:center"> Muestra de como es la arquitectura cliente-servidor </p>`
+
 
 ### LENGUAJES DE PROGRAMACIÓN WEB
 
